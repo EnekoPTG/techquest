@@ -1,0 +1,385 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+body{
+    margin: 0;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: #000000;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+    background-color: #fff;
+}
+.header_logo{
+    font-family: 'Inter';
+    font-style: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.searchbox{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+}
+.searchbox::before{
+    content: url(img/Search.svg);
+}
+.menu{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.menu_element{
+    margin: 0vw 1vw;
+}
+.menu_img{
+    width: 20px;
+    color: #454444;
+}
+input{
+  border: 0;
+}
+button{
+    border: 0;
+    color: #000;
+    background-color: #fff;
+}
+.thirdbutton{
+    background-color: #F7FAFC;;
+}
+.mainpage{
+    padding: 5vw 9vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FBFBFB;
+}
+.uptext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000000;
+}
+.downtext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+}
+.coffeepng{
+    position: absolute;
+    width: 70px;
+}
+.secondpage{
+    margin: 3vw 9vw ;
+    display: flex;
+    border: 1px solid #E2E2E2;
+    justify-content: space-between;
+}
+.textsecondpage{
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottomcard{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex;
+}
+.header_first{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2D3748;
+}
+.header_card{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3748;
+}
+.second_paragraph{
+    margin-top: 1vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+}
+.date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #718096;
+}
+.read_more{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+}
+.cardimage{
+    width: 600px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw 6vw;
+}
+.card{
+    max-width: 300px;
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+}
+
+.textcard{
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdpage{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 9vw;
+    background-color: #F7FAFC;
+}
+
+.textthirdpage{
+    margin: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header_third{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.third_paragraph{
+    margin: 1vw 0vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+}
+
+.third_date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+
+.third_read_more{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bottomthird{
+    display: flex;
+    justify-content: space-between;
+}
+.laptoppng{
+ width: 500px;
+}
+
+.button{
+    display: flex;
+    margin: 3vw 9vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+.see_more{
+    padding: 0.7vw;
+    display: flex;
+    background: #6B46C1;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+footer{
+    padding: 3vw 9vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E8E8E8;
+}
+.footer_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.footer_secondtext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+@media (min-width: 1024px) and (max-width: 1024px){
+    .card{
+        margin: 1vw;
+    }
+    .secondpage{
+        margin: 2vw 4vw;
+    }
+    .thirdpage{
+        margin: 2vw 4vw;
+    }
+    .button{
+        margin: 3vw 4vw;
+    }
+}
+@media (min-width: 1920px) and (max-width: 1920px){
+    header{
+        padding: 2vw 9vw;
+    }
+    .card{
+        margin: 1vw;
+    }
+    .cards{
+        margin: 2vw 10vw;
+    }
+    .secondpage{
+        margin: 2vw 15vw;
+    }
+    .thirdpage{
+        margin: 2vw 15vw;
+    }
+    .button{
+        margin: 2vw 15vw;
+    }
+    footer{
+        padding: 2vw 15vw;
+    }
+}
+
+/* Тут начинаются стили для index2.html */
+
+.mainheader2{
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    flex-direction: column;
+    margin: 3vw 16vw;
+}
+.header_text2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #2D3748;
+}
+.paragraph_text2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D3748;
+}
+.date2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #718096;
+}
+.mainpage2{
+    margin: 3vw 16vw;
+}
+.maintext2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #718096;
+}
+.boldtext2{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #2D3748;
+}
+.boldsection2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.1px;
+    color: #2D3748;
+}
+.buttonsection2{
+    position: absolute;
+    top: 143vw;
+    left: 88%;
+}
+
+@media (min-width: 1024px) and (max-width: 1024px){
+    .buttonsection2{
+        top: 200vw;
+    }
+}
+@media (min-width: 1920px) and (max-width: 1920px){
+    .buttonsection2{
+        top: 85vw;
+        left: 90vw;
+    }
+}
