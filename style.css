@@ -5,7 +5,6 @@ body{
 }
 a:-webkit-any-link{
     text-decoration: none;
-    color: #000000;
 }
 header{
     display: flex;
@@ -36,14 +35,14 @@ header{
 }
 .menu{
     display: flex;
+}
+.menu_element{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-}
-.menu_element{
     margin: 0vw 1vw;
 }
 .menu_img{
