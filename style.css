@@ -157,13 +157,13 @@ button{
     text-decoration: none;
 }
 .read_more{
+    color: #2D3748;
+    text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    color: #2D3748;
-    text-decoration: none;
 }
 .cardimage{
     justify-self: right;
