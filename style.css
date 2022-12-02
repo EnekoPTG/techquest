@@ -5,15 +5,19 @@ body{
 }
 a:-webkit-any-link{
     text-decoration: none;
+    color: #000000;
 }
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
     align-items: center;
     padding: 2vw;
     background-color: #fff;
+    margin: 0 4vw;
 }
 .header_logo{
+    margin-left: 2vw;
     font-family: 'Inter';
     font-style: sans-serif;
     font-weight: 700;
@@ -22,7 +26,8 @@ header{
     color: #000000;
 }
 .searchbox{
-    display: flex;
+    display: grid;
+    grid-template-columns: 24px 1fr;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -30,20 +35,18 @@ header{
     line-height: 19px;
     color: #718096;
 }
-.searchbox::before{
-    content: url(img/Search.svg);
-}
 .menu{
-    display: flex;
-}
-.menu_element{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-    margin: 0vw 1vw;
+}
+.menu_element{
+    margin: 0vw;
 }
 .menu_img{
     width: 20px;
@@ -56,18 +59,21 @@ button{
     border: 0;
     color: #000;
     background-color: #fff;
+    text-align: right;
 }
 .thirdbutton{
     background-color: #F7FAFC;;
 }
 .mainpage{
-    padding: 5vw 9vw;
-    display: flex;
-    justify-content: space-evenly;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     align-items: center;
     background-color: #FBFBFB;
 }
 .uptext{
+    text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -83,27 +89,33 @@ button{
     line-height: 36px;
     color: #4A5568;
 }
+.croods{
+    justify-self: center;
+    align-self: center;
+}
 .coffeepng{
     position: absolute;
     width: 70px;
 }
 .secondpage{
     margin: 3vw 9vw ;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     border: 1px solid #E2E2E2;
     justify-content: space-between;
 }
 .textsecondpage{
     margin: 3vw;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: space-around;
 }
 .bottomcard{
     margin-top: 2vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: left;
 }
 .header_first{
     font-family: 'Inter';
@@ -147,11 +159,13 @@ button{
     color: #2D3748;
 }
 .cardimage{
+    justify-self: right;
     width: 600px;
 }
 .cards{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
     margin: 3vw 6vw;
 }
 .card{
@@ -162,12 +176,13 @@ button{
 
 .textcard{
     margin: 1vw;
-    display: flex;
+    display: grid;
     flex-direction: column;
 }
 
 .thirdpage{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     margin: 3vw 9vw;
     background-color: #F7FAFC;
@@ -175,8 +190,7 @@ button{
 
 .textthirdpage{
     margin: 4vw;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: space-around;
 }
 
@@ -218,15 +232,17 @@ button{
 }
 
 .bottomthird{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
 }
 .laptoppng{
- width: 500px;
+    justify-self: right;
+    width: 500px;
 }
 
 .button{
-    display: flex;
+    display: grid;
     margin: 3vw 9vw;
     justify-content: flex-end;
     align-items: center;
@@ -245,7 +261,8 @@ button{
 }
 footer{
     padding: 3vw 9vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     border: 1px solid #E8E8E8;
 }
@@ -265,9 +282,15 @@ footer{
     line-height: 19px;
     color: #000000;
 }
+.footer_links{
+    justify-self: right;
+}
 @media (min-width: 1024px) and (max-width: 1024px){
     .card{
         margin: 1vw;
+    }
+    .cards{
+        margin: 3vw;
     }
     .secondpage{
         margin: 2vw 4vw;
@@ -306,7 +329,8 @@ footer{
 /* Тут начинаются стили для index2.html */
 
 .mainheader2{
-    display: flex;
+    display: grid;
+    grid-template: 1fr;
     justify-content: center;
 }
 
@@ -370,7 +394,9 @@ footer{
     top: 143vw;
     left: 88%;
 }
-
+hr{
+    width: 68vw;
+}
 @media (min-width: 1024px) and (max-width: 1024px){
     .buttonsection2{
         top: 200vw;
